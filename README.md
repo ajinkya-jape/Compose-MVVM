@@ -8,3 +8,7 @@ MVVM Architecture: Implements the Model-View-ViewModel architecture pattern for 
 Retrofit API Integration: Integrates Retrofit library for making network requests and handling API responses efficiently.
 Modular Design: Encourages a modular design approach for scalability and maintainability.
 Clean Code: Follows best practices to ensure clean, readable, and maintainable codebase.
+
+Dependencies:
+Jetpack Compose
+Retrofit
