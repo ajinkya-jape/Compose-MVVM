@@ -59,11 +59,3 @@ fun MovieItem(dataResponse: MovieModel) {
         Spacer(modifier = Modifier.height(8.dp))
     }
 }
-
-
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    MovieScreen()
-}

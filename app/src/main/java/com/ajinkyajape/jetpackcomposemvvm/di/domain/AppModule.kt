@@ -23,6 +23,7 @@ object AppModule {
             .create(ApiServices::class.java)
     }
 
+    @Provides
     fun invokeMoviesRepo(apiServices: ApiServices): MovieRepository {
         return  MovieRepository(apiServices)
     }

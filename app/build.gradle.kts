@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.ajinkyajape.jetpackcomposemvvm"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.ajinkyajape.jetpackcomposemvvm"
@@ -41,7 +41,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
+        kotlinCompilerExtensionVersion = "1.5.14"
     }
     packaging {
         resources {
@@ -83,6 +83,6 @@ dependencies {
     // hilt - DI
     implementation ("androidx.hilt:hilt-navigation-compose:1.2.0")
     implementation ("com.google.dagger:hilt-android:2.49")
-    kapt ("com.google.dagger:hilt-compiler:2.44")
+    annotationProcessor ("com.google.dagger:hilt-compiler:2.44")
 
 }
