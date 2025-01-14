@@ -8,10 +8,8 @@ The app showcases modern Android development practices, leveraging Jetpack Compo
 for building the UI and MVVM architecture for separating concerns, ensuring maintainability, 
 and scalability.
 
-
 ### Screenshots
-![img.png](img.png)
-
+![img_1.png](img_1.png)
 #### Features:
 - Jetpack Compose UI: Utilizes Jetpack Compose for building a modern and reactive user interface.
 - MVVM Architecture: Implements the Model-View-ViewModel architecture pattern for separation of concerns and maintainability.
