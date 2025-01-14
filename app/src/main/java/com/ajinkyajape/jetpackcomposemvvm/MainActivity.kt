@@ -1,29 +1,29 @@
-package com.ajinkyajape.jetpackcomposemvvm.ui.screens
+package com.ajinkyajape.jetpackcomposemvvm
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.ajinkyajape.jetpackcomposemvvm.mvvm.view.MovieScreen
+import androidx.lifecycle.viewmodel.compose.viewModel
+import com.ajinkyajape.jetpackcomposemvvm.mvvm.viewmodel.CounterViewModel
+import com.ajinkyajape.jetpackcomposemvvm.ui.screen.CounterScreen
 import com.ajinkyajape.jetpackcomposemvvm.ui.theme.ComposeMVVMTheme
-import dagger.hilt.android.AndroidEntryPoint
 
-@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
         setContent {
+
+            val counterViewModel: CounterViewModel = viewModel()
             ComposeMVVMTheme {
-                // A surface container using the 'background' color from the theme
                 Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
+                    modifier = Modifier.fillMaxSize()
                 ) {
-                    MovieScreen()
+                    CounterScreen(counterViewModel)
                 }
             }
         }
