@@ -1,4 +1,4 @@
-package com.ajinkyajape.jetpackcomposemvvm.ui.theme
+package com.ajinkyajape.countermvvm.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

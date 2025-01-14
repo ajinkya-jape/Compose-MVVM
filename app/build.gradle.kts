@@ -1,15 +1,14 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id("kotlin-kapt")
 }
 
 android {
-    namespace = "com.ajinkyajape.jetpackcomposemvvm"
+    namespace = "com.ajinkyajape.countermvvm"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.ajinkyajape.jetpackcomposemvvm"
+        applicationId = "com.ajinkyajape.countermvvm"
         minSdk = 29
         targetSdk = 34
         versionCode = 1
@@ -72,13 +71,6 @@ dependencies {
     // Jetpack Compose
     implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
     implementation ("androidx.compose.runtime:runtime-livedata:1.7.6")
-
-    // Retrofit for network requests
-    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
-
-    // Coroutines for asynchronous programming
-    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
 
 }

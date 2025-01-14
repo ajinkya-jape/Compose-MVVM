@@ -1,4 +1,4 @@
-package com.ajinkyajape.jetpackcomposemvvm.ui.screen
+package com.ajinkyajape.countermvvm.ui.screen
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -12,7 +12,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.ajinkyajape.jetpackcomposemvvm.mvvm.viewmodel.CounterViewModel
+import com.ajinkyajape.countermvvm.mvvm.viewmodel.CounterViewModel
 
 /**
  * Created by Ajinkya Jape on 14/01/25.

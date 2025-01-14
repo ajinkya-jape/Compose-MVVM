@@ -1,4 +1,4 @@
-package com.ajinkyajape.jetpackcomposemvvm
+package com.ajinkyajape.countermvvm
 
 import org.junit.Test
 

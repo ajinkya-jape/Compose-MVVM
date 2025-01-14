@@ -1,4 +1,4 @@
-package com.ajinkyajape.jetpackcomposemvvm.mvvm.model
+package com.ajinkyajape.countermvvm.mvvm.model
 
 /**
  * Created by Ajinkya Jape on 14/01/25.
